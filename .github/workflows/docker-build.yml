@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  docker-build:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,3 +15,6 @@ jobs:
 
       - name: Build Docker image
         run: docker build -t devops-project .
+
+      - name: Verify Docker image
+        run: docker images
