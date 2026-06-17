@@ -1,18 +1,38 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
-    margin-top: 100px;
+    margin: 0;
+    background-color: #f5f7fb;
+    color: #333;
 }
 
-h1 {
-    color: #0066cc;
+header {
+    text-align: center;
+    padding: 40px;
+    background-color: #1f4e79;
+    color: white;
+}
+
+.card {
+    background: white;
+    width: 80%;
+    max-width: 800px;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 h2 {
-    color: #444;
+    color: #1f4e79;
 }
 
-p {
-    font-size: 18px;
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e9ecef;
+    margin-top: 30px;
 }
